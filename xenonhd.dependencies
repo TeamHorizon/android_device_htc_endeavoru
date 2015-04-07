@@ -3,14 +3,14 @@
     "remote": "cm",
     "repository": "android_device_htc_tegra3-common",
     "target_path": "device/htc/tegra3-common",
-    "revision": "cm-12.0"
+    "revision": "cm-12.1"
   },
   
   {
     "remote": "cm",
     "repository": "android_kernel_htc_endeavoru",
     "target_path": "kernel/htc/endeavoru",
-    "revision": "cm-12.0"
+    "revision": "cm-12.1"
   },
   {
     "remote": "th",
