@@ -107,6 +107,9 @@ BOARD_USES_GENERIC_INVENSENSE := false
 BOARD_HAVE_BLUETOOTH_TI := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/endeavoru/bluetooth
 
+# Charge mode
+BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
+
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
@@ -115,6 +118,8 @@ BOARD_RECOVERY_SWIPE := true
 TARGET_RECOVERY_FSTAB := device/htc/endeavoru/ramdisk/fstab.endeavoru
 RECOVERY_FSTAB_VERSION := 2
 BOARD_HAS_LARGE_FILESYSTEM := true
+
+TARGET_RECOVERY_DEVICE_MODULES += chargeled
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/endeavoru
@@ -129,6 +134,7 @@ BOARD_SEPOLICY_UNION += \
 	init_shell.te \
 	kernel.te \
 	navl_server.te \
+	recovery.te \
 	uim_sysfs.te \
 	system_server.te \
 	vold.te \
