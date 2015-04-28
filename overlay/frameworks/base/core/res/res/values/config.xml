@@ -246,4 +246,10 @@
     <bool name="config_sf_slowBlur">true</bool>
 
     <bool name="config_ui_enableFadingMarquee">true</bool>
+    
+    <!-- Dream of notifications -->
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <!-- Doze: force using accelerometer as pick up sensor -->
+    <bool name="config_dozeUseAccelerometer">true</bool>
 </resources>
