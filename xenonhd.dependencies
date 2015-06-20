@@ -14,13 +14,13 @@
   },
   {
   "remote": "cm",
-    "repository": "android_harware_ti_wlan",
+    "repository": "android_hardware_ti_wlan",
     "target_path": "hardware/ti/wlan",
     "revision": "cm-12.1"
   },
   {
   "remote": "cm",
-    "repository": "android_harware_ti_wpan",
+    "repository": "android_hardware_ti_wpan",
     "target_path": "hardware/ti/wpan",
     "revision": "cm-12.1"
   },
