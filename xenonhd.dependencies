@@ -25,9 +25,9 @@
     "revision": "cm-12.1"
   },
   {
-    "remote": "th",
+    "remote": "cm",
     "repository": "proprietary_vendor_htc",
     "target_path": "vendor/htc",
-    "revision": "lollipop"
+    "revision": "cm-12.1"
   }
 ]
