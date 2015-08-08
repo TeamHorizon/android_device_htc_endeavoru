@@ -7,10 +7,10 @@
   },
   
   {
-    "remote": "cm",
+    "remote": "th",
     "repository": "android_kernel_htc_endeavoru",
     "target_path": "kernel/htc/endeavoru",
-    "revision": "cm-12.1"
+    "revision": "lp-mr1"
   },
   {
   "remote": "cm",
